@@ -1,0 +1,50 @@
+path: C:\Users\67167\Desktop\yanzhengmashibie\YOLOhuakuaiyanztrain\datasets\icon
+train: C:\Users\67167\Desktop\yanzhengmashibie\YOLOhuakuaiyanztrain\datasets\icon\images\train
+val: C:\Users\67167\Desktop\yanzhengmashibie\YOLOhuakuaiyanztrain\datasets\icon\images\val
+
+
+# 数据增强配置（关键！关闭颜色相关的变换）
+#augment:
+#  # 禁用颜色空间变换
+#  hsv_h: 0.0  # 色相调整幅度（设为0禁用）
+#  hsv_s: 0.0  # 饱和度调整幅度
+#  hsv_v: 0.0  # 明度调整幅度
+#  # 其他可能影响颜色的参数
+#  color_jitter: 0.0  # 颜色抖动强度（设为0禁用）
+#  # 保留几何变换（可选，不影响颜色）
+#  degrees: 10        # 旋转角度范围
+#  translate: 0.1     # 平移比例
+#  scale: 0.5         # 缩放比例范围
+#  shear: 0.0         # 剪切强度（设为0禁用形变）
+##model:
+##  num_classes: 2     # 颜色类别数（与names数量一致）
+#  # 类别名称（颜色列表）
+#names:
+#  0: 黄色
+#  1: 紫色
+#
+
+
+
+
+
+
+
+
+
+
+
+#augmentation:
+#  hsv_h: 0.015  # 色调扰动
+#  hsv_s: 0.7    # 饱和度增强
+#  hsv_v: 0.4    # 明度扰动
+#  translate: 0.1 # 平移
+#  scale: 0.9     # 缩放
+#  shear: 5       # 剪切
+#  flipud: 0.5    # 上下翻转
+#  fliplr: 0.5    # 左右翻转
+#  mixup: 0.1     # 启用 MixUp 增强
+#  degrees: 10    # 旋转角度
+names:
+  0: '缺'
+  1: '突'
